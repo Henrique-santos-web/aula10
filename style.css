@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background: #770303;
+    color: #deb887;
+    font-size: 3.3em;
+    text-transform: uppercase;
+    font-family: 'Arial Narrow Bold';
+    /* é o tipo de letra */
+    font-weight: 900;
+    /* deixa mais ressaltado ou n a minha sombra */
+    font-style: italic;
+    /* é o estilo da minha fonte */
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* mexe na fonte dentro do meu contúdo, como as letras */
+    padding: 30px;
+    /* mexe na fonte fora do meu conteúdo, como o posicionamento do título por exemplo */
+    text-align: center;
+    letter-spacing: 10px;
+    /* espaçamento das letras */
+    text-shadow: 10px 5px 5px #000000;
+    /* o primeiro valor determina se a sombra da fonte vai para a direita ou para esquerda.
+
+    o segundo valor determina a sombra da fonte vai para cima ou para baixo.
+
+    o terceiro valor determina o foco da fonte, se ela ficará muito ou pouco desfocada,
+    o quarto valor determina da sombra da fonte.
+    */
+   
+}
+
+main p{
+    margin-left: 100px;
+    margin-inline-end: 100px;
+    margin-bottom: 40px;
+
+    line-height: 25px;
+    /* altura da linha */
+
+    text-indent: 10px;
+    /* primeira linha do parágrafo ou recuo do parágrafo. */
+
+    text-align: justify;
+    /* alinhar o espaço dos textos caso há 2 espaços de uma palavra para a outra. */
+}
